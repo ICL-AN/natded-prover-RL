@@ -1,0 +1,29 @@
+# macOS system files
+.DS_Store
+
+# Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest cache
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+
+# Local results and experiments
+*.csv
+*.tex
+
+# IDE / editor settings
+.vscode/
+.idea/
