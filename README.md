@@ -26,24 +26,12 @@ This project started as a learning exercise and evolved into a compact research-
   - Results exported as `.csv` for quick analysis  
 
 - **Export**
-  - Optional LaTeX proof tree rendering (`natded.export`)  
+  - Optional LaTeX proof tree rendering (`natded.export`)
 
 ---
 
-## Quickstart  
 
-```bash
-git clone https://github.com/yourusername/natded-prover.git
-cd natded-prover
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -e .[dev]
-pytest          # run all tests
-bin/bench.py    # run benchmarks
-
----
-
-**## Why It Matters**
+## Why It Matters
 
 - **Bridging symbolic and neural methods**  
   Classic provers rely on brute force or hand-coded strategies.  
@@ -60,12 +48,25 @@ bin/bench.py    # run benchmarks
 
 ---
 
-**## Future Work**
+## Future Work
 
 - **Embedding-guided heuristics** to bias search with semantic similarity.  
 - **Stronger ML policies** (transformers, graph neural nets).  
 - **Benchmarking on standard proof corpora** for more rigorous evaluation.  
 - **Extension to new logics** (modal, temporal, intuitionistic).  
 - **Parallel and distributed search** for scaling harder proofs.  
+
+
+## Quickstart  
+
+```bash
+git clone https://github.com/yourusername/natded-prover.git
+cd natded-prover
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .[dev]
+pytest          # run all tests
+bin/bench.py    # run benchmarks
+
 
 
