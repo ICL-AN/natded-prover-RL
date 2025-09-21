@@ -67,6 +67,3 @@ source .venv/bin/activate
 pip install -e .[dev]
 pytest          # run all tests
 bin/bench.py    # run benchmarks
-
-
-
